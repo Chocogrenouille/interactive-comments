@@ -1,0 +1,13 @@
+@import '../../../styles/global.scss';
+
+.button {
+  background-color: $moderate-blue;
+  color: $white;
+  padding: 0.5 * $unit $unit;
+  border-radius: 1.5 * $border-radius;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}

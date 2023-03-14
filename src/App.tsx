@@ -1,7 +1,9 @@
+import PostWrapper from './components/post-wrapper/post-wrapper'
+
 function App() {
   return (
     <div>
-      <header>Learn React</header>
+      <PostWrapper />
     </div>
   )
 }
